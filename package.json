@@ -38,5 +38,9 @@
     "type": "git",
     "url": "https://github.com/ElMassimo/vite_ruby"
   },
-  "homepage": "https://github.com/ElMassimo/vite_ruby"
+  "homepage": "https://github.com/ElMassimo/vite_ruby",
+  "private": true,
+  "workspaces": [
+    "vite-plugin-ruby"
+  ],
 }
