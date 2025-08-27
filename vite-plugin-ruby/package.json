@@ -33,6 +33,10 @@
     "dist",
     "default.vite.json"
   ],
+  "private": true,
+  "workspaces": [
+    "vite-plugin-ruby"
+  ],
   "scripts": {
     "lint": "eslint .",
     "dev": "npm run build -- --watch",
